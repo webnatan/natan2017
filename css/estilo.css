@@ -1,0 +1,300 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.clear{
+	clear:both;
+}
+/*header*/
+body{	
+	font-family:'aero_maticsregular';
+}
+
+nav{
+	float:right;
+	margin-right: 94px;
+	margin-top: 24px;
+}
+
+div.centro{
+	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+nav a{
+	color:black;
+	text-transform:uppercase;
+	font-size:15pt;
+	font-family:Arial;
+	font-family:'aero_maticsregular';
+	padding:14px 26px 14px 26px;
+	text-decoration:none;
+	border-radius:3px;
+}
+
+nav a:hover{
+	background:#e4e4e4;
+}
+
+/*começo-linhas-menu*/
+.linha-1 {
+	height:1px;
+	background:black;
+	border:none;
+	margin-bottom: 20px;
+}
+
+.linha-2 {
+	height:1px;
+	background:black;
+	border:none;
+	margin-top: 20px;
+}
+/*fim-linhas-menu*/
+
+/*fim-header*/
+
+section{
+	padding-top:60px;	
+	min-height:100vh;
+	box-sizing: border-box;
+}
+
+/*HOME*/
+
+/*texto-home*/
+section#home h1{
+	font-size:50px;
+	font-weight: normal;
+	text-align: center;
+	background: black;
+	color:white;
+	margin-top: 300px;
+	background-size: 50%;
+}
+
+section#home h1 hr{
+	height: 6px;
+	background:white;
+	border:none;
+/*------linha-texto-------*/
+}
+
+div.h1-home{
+	width: 960px;
+  	margin: 20px auto;
+}
+/*fim-texto-home*/
+
+/*FIM-HOME*/
+
+hr.divisao {
+ 	height: 1px;
+	background:black;
+	border:none;
+	width: 430px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+
+/*SKILLS*/
+section#skills h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'aero_maticsbold';
+	text-transform: uppercase;
+	margin-bottom: 125px;
+}
+
+section#skills article{
+	width: 33.3%;
+    float: left;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center
+	/*border: solid 1px red;*/
+}
+
+section#skills h2{
+	font-size: 40px;
+	font-family: 'aero_maticsregular'
+}
+
+section#skills .button-sk{
+	width:171px;
+	height:42px;
+	background: white;
+	color:black;
+	font-size:15pt;
+	font-family:Arial;
+	font-family:'aero_maticsregular';
+	text-decoration:none;
+	border: solid 1px black;
+	margin: 5px;	
+}
+
+section#skills button:hover{
+	color:white;
+	background: black;
+}
+
+section#skills .hab-sk{
+	margin-top:58px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin: auto;
+	margin-top: 59px;
+}
+
+/*FIM-SKILLS*/
+
+/*PORTIFOLIO*/
+section#portifolio h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'aero_maticsbold';
+	text-transform: uppercase;
+	margin-bottom: 125px;
+}
+
+/*FIM-PORTIFOLIO*/
+
+/*SOBRE*/
+
+section#sobre h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'aero_maticsbold';
+	text-transform: uppercase;
+	margin-bottom: 139px;
+}
+
+section#sobre article img{
+	max-width: 100%;
+    border-radius: 100%;
+    width: 360px;
+    float: left;
+    margin-right: 30px;
+}
+
+section#sobre article p{
+	text-align: left;
+	font-size: 28px;
+}
+
+/*FIM-SOBRE*/
+
+/*CONTATO*/
+
+section#contato h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'aero_maticsbold';
+	text-transform: uppercase;
+	margin-bottom: 52px;
+}
+
+section#contato .bg-contato{
+	background: #e4e4e4;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	height: 490px;
+}
+
+section#contato article{
+	width: 100%;
+	float: left;
+}
+
+section#contato article h2{
+	text-align: center;
+	padding: 5px;
+}
+
+
+section#contato article p{
+	text-align: center;
+	padding: 5px;
+}
+section#contato form input{
+	width:100%;
+	padding:15px;
+	border:none;
+	background:white;	
+	font-family:'aero_maticsregular';
+	color:black;
+	outline:none;
+	border: solid 1px black;
+}
+
+section#contato form .fieldbox{
+	width:100%;
+}
+
+section#contato form textarea{
+	width:525px;
+	padding: 15px;
+	border: solid 1px black;
+	background:white;
+	height:311px;
+	font-family:'aero_maticsregular';
+	color:black;
+	outline:none;
+}
+
+
+section#contato form div{
+	padding:20px;
+	box-sizing:border-box;
+}
+
+section#contato .botao-enviar{
+ 	width: 50%;
+ 	margin-left: 25%;
+}
+
+section#contato form input[type=submit]:hover{
+	color:white;
+	background: black;
+}
+
+section#contato .redes-sociais{
+	margin-left: 42%;
+}
+
+section#contato .redes-sociais img{
+	width: 48px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+section#contato .contato-texto{
+	position: relative;
+	width: 25%;
+	height: 100%;
+	min-height: 100%;
+	float: left;
+	margin-top: 160px;
+}
+
+section#contato .contato-form{
+	position: relative;
+	width: 25%;
+	height: 100%;
+	min-height: 100%;
+	float: left;
+	margin-top: 70px;
+}
+
+section#contato .contato-caixa{
+	position: relative;
+	width: 50%;
+	text-align: center;
+	float: left;
+	margin-top: 15px;
+}

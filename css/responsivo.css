@@ -1,0 +1,25 @@
+@media screen and (max-width: 1059px) {	
+	section{display: none}
+	#home{display: block;}
+	div.centro{
+		width:100%;
+	}
+	div.h1-home{
+		width: 100%;
+	}
+
+	nav a{
+		padding: 14px;
+	}
+
+	section#home h1{
+		font-size:40px;
+	}
+
+}
+
+@media screen and (max-width: 667px) {
+
+
+
+}
